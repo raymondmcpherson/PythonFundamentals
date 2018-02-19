@@ -12,3 +12,17 @@ def convert_to_celsius(fahrenheit):
     '''
 
     return (fahrenheit - 32) * 5 / 9
+
+
+def convert_to_fahrenheit(celsius):
+    '''(number) -> float
+
+    Return the number of Fahrenheit degrees equivalent to celsius degrees.
+
+    >>> convert_to_fahrenheit(0)
+    32
+    >>> convert_to_fahrenheit(100)
+    212
+    '''
+
+    return (celsius * 9 / 5) + 32
